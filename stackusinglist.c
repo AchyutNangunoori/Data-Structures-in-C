@@ -61,8 +61,8 @@ void pop()
 	}
 	else
 	{
-		printf("The deleted elemented is: %d\n",top->data);
-		top=top->next;
+		printf("The deleted elemented is: %d\n",newnode->data);
+		top=newnode->next;
 		free(newnode);
 	}
 }
